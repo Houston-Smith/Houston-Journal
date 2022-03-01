@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houston's Journal</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>Logo</h1>
+  </header>
+
+  <main>
+    <h2>Daily Journal</h2>
+    <form action="">
+      <fieldset>
+        <label for="journalDate">Date of entry</label>
+        <input type="date" name="journalDate" id="journalDate">
+      </fieldset>
+      <fieldset>
+        <label for="journalConcepts">Concepts Covered</label>
+        <input type="concepts" name="journalConcepts" id="journalConcepts">
+      </fieldset>
+      <fieldset>
+        <label for="journalEntry">Journal Entry</label>
+        <input type="text" name="journalEntry" id="journalEntry">
+      </fieldset>
+      <fieldset>
+        <label for="journalMood">Mood for the Day</label>
+        <select name="mood" id="journalMood">
+          <option value="first">---</option>
+          <option value="second">Happy</option>
+          <option value="third">Sad</option>
+          <option value="third">Panicked</option>
+        </select>
+      </fieldset>
+      <button type="button">
+        Record Journal Entry
+      </button>
+    </form>
+  </main>
+
+  <footer>
+    <h2>Houston's Journal</h2>
+  </footer>
+</body>
+</html>
