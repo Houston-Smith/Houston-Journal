@@ -14,11 +14,15 @@ export const EntryListComponent = () => {
     // Use the journal entry data from the data module component
     const entries = getJournalEntries()
 
+    let entryHTMLRepresentation = "";
+
     for (const entry of entries) {
         /*
             Invoke the component that returns an
             HTML representation of a single entry
         */
-        entryLog.innerHTML += ???
+        entryLog.innerHTML +=  `
+        ${entryHTMLRepresentation}
+        `
     }
 }
