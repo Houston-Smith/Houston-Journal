@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Houston",
+      "email": "houstonbsmith@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "entryDate": "3/16/2022",
+      "ConceptCovered": "Test",
+      "JournalEntry": "This is a test",
+      "dailyMood": "Panicked",
+      "timestamp": 0,
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}
